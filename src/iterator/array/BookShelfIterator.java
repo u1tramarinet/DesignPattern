@@ -1,4 +1,8 @@
-package iterator;
+package iterator.array;
+
+import iterator.Book;
+import iterator.Iterator;
+import iterator.array.BookShelf;
 
 public class BookShelfIterator implements Iterator {
     private BookShelf bookShelf;

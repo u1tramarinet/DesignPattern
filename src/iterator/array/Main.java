@@ -1,4 +1,8 @@
-package iterator;
+package iterator.array;
+
+import iterator.Book;
+import iterator.Iterator;
+import iterator.array.BookShelf;
 
 public class Main {
     public static void main(String[] args) {

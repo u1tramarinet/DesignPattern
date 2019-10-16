@@ -1,4 +1,8 @@
-package iterator;
+package iterator.array;
+
+import iterator.Aggregate;
+import iterator.Book;
+import iterator.Iterator;
 
 public class BookShelf implements Aggregate {
     private Book[] books;
@@ -9,6 +13,9 @@ public class BookShelf implements Aggregate {
     }
 
     public Book getBookAt(int index) {
+        if ((0 > index) || (books.length <= index)) {
+            return null;
+        }
         return books[index];
     }
 
