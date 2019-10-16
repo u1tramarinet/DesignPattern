@@ -1,7 +1,4 @@
-package adapter.delegate;
-
-import adapter.inheritance.Print;
-import adapter.inheritance.PrintBanner;
+package adapter.banner.inheritance;
 
 public class Main {
     public static void main(String[] args) {

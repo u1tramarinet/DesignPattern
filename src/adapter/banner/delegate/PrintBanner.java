@@ -1,6 +1,6 @@
-package adapter.delegate;
+package adapter.banner.delegate;
 
-import adapter.Banner;
+import adapter.banner.Banner;
 
 public class PrintBanner extends Print {
     private Banner banner;

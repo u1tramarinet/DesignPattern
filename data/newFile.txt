@@ -1,0 +1,5 @@
+#written by FileProperties
+#Wed Oct 16 23:43:24 GMT+09:00 2019
+day=13
+year=2014
+month=9

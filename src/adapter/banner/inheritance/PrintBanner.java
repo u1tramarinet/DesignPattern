@@ -1,6 +1,6 @@
-package adapter.inheritance;
+package adapter.banner.inheritance;
 
-import adapter.Banner;
+import adapter.banner.Banner;
 
 public class PrintBanner extends Banner implements Print {
 

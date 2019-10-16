@@ -1,4 +1,4 @@
-package adapter.delegate;
+package adapter.banner.delegate;
 
 public abstract class Print {
     public abstract void printWeak();

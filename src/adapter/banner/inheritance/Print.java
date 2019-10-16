@@ -1,4 +1,4 @@
-package adapter.inheritance;
+package adapter.banner.inheritance;
 
 public interface Print {
     void printWeak();
