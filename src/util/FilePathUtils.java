@@ -1,4 +1,4 @@
-package adapter.property;
+package util;
 
 import java.io.File;
 

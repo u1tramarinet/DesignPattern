@@ -4,6 +4,8 @@ import java.io.FileWriter;
 import java.io.IOException;
 import java.io.PrintWriter;
 
+import util.FilePathUtils;
+
 public class HTMLBuilder implements Builder {
 
     private String filename = FilePathUtils.getDataPath();

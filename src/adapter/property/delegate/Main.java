@@ -1,7 +1,7 @@
 package adapter.property.delegate;
 
-import adapter.property.FileIO;
-import adapter.property.FilePathUtils;
+import adapter.property.*;
+import util.FilePathUtils;
 
 import java.io.IOException;
 
