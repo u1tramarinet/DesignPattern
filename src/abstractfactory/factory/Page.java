@@ -23,7 +23,7 @@ public abstract class Page {
 
     public void output() {
         try {
-            String filename = FilePathUtils.getDataPath() + "\\" + title + ".html";
+            String filename = FilePathUtils.getOutPath() + title + ".html";
             Writer writer = new FileWriter(filename);
             writer.write(this.makeHTML());
             writer.close();

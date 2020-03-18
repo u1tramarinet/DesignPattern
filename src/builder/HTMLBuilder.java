@@ -8,12 +8,12 @@ import util.FilePathUtils;
 
 public class HTMLBuilder implements Builder {
 
-    private String filename = FilePathUtils.getDataPath();
+    private String filename = FilePathUtils.getOutPath();
     private PrintWriter writer;
 
     @Override
     public void makeTitle(String title) {
-        filename += "\\" + title + ".html";
+        filename += title + ".html";
 
         try {
             writer = new PrintWriter(new FileWriter(filename));
