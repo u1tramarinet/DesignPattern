@@ -105,7 +105,7 @@ public class LoginFrame extends Frame implements ActionListener, Mediator {
         return checkBoxGuest.getState();
     }
 
-    private boolean isValidText(TextField textField, int threshold) {
-        return textField.getText().length() >= threshold;
+    private boolean isValidText(TextField textField, int min) {
+        return textField.getText().length() >= min;
     }
 }
